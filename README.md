@@ -2,7 +2,7 @@
 31st of August 2020.
 
 ### Project Title
-Explore US Bikeshare Data
+**Explore US Bikeshare Data**
 
 ### Description
 Explores bikeshare data from Chicago, New York and Washington. 
@@ -21,7 +21,7 @@ Provides statistics on:
 bikeshare.py
 
 ### Credits
-Udacity Programming for Data Science with Python Nanodegree.
+*Udacity Programming for Data Science with Python Nanodegree.*
 <br/>
 :sunglasses:
 
