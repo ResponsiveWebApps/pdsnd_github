@@ -138,14 +138,14 @@ def user_stats(df, city):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # Display counts of user types
+    # display counts of user types
     print("Count of user types: \n {} \n".format(df['User Type'].value_counts()))
     
     if city != 'washington':
-        # Display counts of gender
+        # display counts of gender
         print("Count of gender: \n {} \n".format(df['Gender'].value_counts()))
 
-        # Display earliest, most recent, and most common year of birth
+        # display earliest, most recent, and most common year of birth
         print("Earliest year of birth: {} \n".format(df['Birth Year'].min()))
         print("Most recent year of birth: {} \n".format(df['Birth Year'].max()))
         print("Most common year of birth: {} \n".format(df['Birth Year'].mode()[0]))
@@ -180,7 +180,7 @@ def main():
             else:
                 break
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\n Would you like to restart? Enter yes or no. \n')
         if restart.lower() != 'yes':
             break
 
